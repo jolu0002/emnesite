@@ -9,3 +9,54 @@ img {
     height: auto;
     display: block; 
 }
+@font-face {
+    font-family: promptblack;
+    src: url(../fonts/Prompt-BlackItalic.ttf);
+}
+@font-face {
+    font-family: promptbold;
+    src: url(../fonts/Prompt-Bold.ttf);
+}
+@font-face {
+    font-family: promptlight;
+    src: url(../fonts/Prompt-Light.ttf);
+}
+@font-face {
+    font-family: promptextra;
+    src: url(../fonts/Prompt-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: promptmedium;
+    src: url(../fonts/Prompt-Medium.ttf);
+}
+@font-face {
+    font-family: promptsemi;
+    src: url(../fonts/Prompt-SemiBold.ttf);
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+h1 {
+    color: #6E0606;
+    font-size: 120px;
+    font-family: "promptblack";
+}
+p {
+    color: #35322D;
+    font-family: "promptsemi";
+}
+.menu {
+    color: #A22A2A;
+    font-family: "promptblack";
+}
+.footermenu {
+    color: #35322D; 
+    font-family: "promptbold";
+}
+
+h2,h3,h4 {
+    color: #35322D;
+    font-family: "promptextra";
+}
