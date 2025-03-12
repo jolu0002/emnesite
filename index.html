@@ -9,14 +9,22 @@
   </head>
   <body>
     <header>
-      <h1>ALICE</h1>
+      <section class="header">
+        <div class="videodiv">
+          <video autoplay loop muted>
+            <source src="video/headervideo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <h1 class="tekstoverlay">ALICE</h1>
+        </div>
+      </section>
     </header>
     <main>
       <section>
         <h2>Film i dag, torsdag 6. marts</h2>
         <p>
-          Der er ingen filmvisninger i dag. Tjek vores kalender og find den
-          næste!
+          Der er ingen filmvisninger i dag. Tjek vores
+          <span class="kalender">kalender</span> og find den næste!
         </p>
         <!-- tilføj link ved "calender" -->
       </section>
@@ -39,23 +47,21 @@
       <section>
         <nav>
           <ul>
-            <li class="menu">CALENDER</li>
-            <li class="menu">EVENTS</li>
-            <li class="menu">ABOUT</li>
+            <li class="menu"><a href="calender.html">CALENDER</a></li>
+            <li class="menu"><a href="#">EVENTS</a></li>
+            <li class="menu"><a href="about.html">ABOUT</a></li>
           </ul>
-          <!-- tilføj links til undersider -->
         </nav>
       </section>
     </main>
     <footer>
       <nav>
         <ul>
-          <li class="footermenu">ABOUT ALICE</li>
-          <li class="footermenu">CONTACT</li>
-          <li class="footermenu">CALENDER</li>
-          <li class="footermenu">LET'S STAY IN TOUCH</li>
-          <!-- tilføj links til undersider -->
-          <p>Nandrupsvej 2, 2000 Frederiksberg</p>
+          <li class="footermenu"><a href="about.html">ABOUT ALICE</a></li>
+          <li class="footermenu"><a href=#">CONTACT</a></li>
+          <li class="footermenu"><a href="calender.html">CALENDER</a></li>
+          <li class="footermenu"><a href="#">LET'S STAY IN TOUCH</a></li>
+          <p class="adresse">Nandrupsvej 2, 2000 Frederiksberg</p>
         </ul>
       </nav>
     </footer>
