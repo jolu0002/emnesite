@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 5;
     padding: 0;
     box-sizing: border-box;
 }
@@ -7,7 +7,7 @@
 img {
     max-width: 100%;
     height: auto;
-    display: block; 
+    
 }
 @font-face {
     font-family: promptblack;
@@ -34,6 +34,7 @@ img {
     src: url(../fonts/Prompt-SemiBold.ttf);
 }
 
+
 body {
     background-color: #EBEBEB;
 }
@@ -42,21 +43,158 @@ h1 {
     color: #6E0606;
     font-size: 120px;
     font-family: "promptblack";
+    cursor: pointer;
 }
 p {
     color: #35322D;
     font-family: "promptsemi";
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right:15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.ingenfilm {
+    text-align: center;
 }
 .menu {
     color: #A22A2A;
     font-family: "promptblack";
+    font-size: 80px;
+    line-height: 70px;
+    margin-left: 2px;
 }
-.footermenu {
-    color: #35322D; 
-    font-family: "promptbold";
-}
+
 
 h2,h3,h4 {
     color: #35322D;
     font-family: "promptextra";
 }
+.adresse {
+    font-family: "promptextra";
+    font-size: 14px;
+    text-align: right;
+    margin-right: 30px;
+}
+.kalender {
+    color: #A22A2A;
+    text-decoration: none;
+}
+.overskrift {
+    color: #A22A2A;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #A22A2A;
+}
+.footermenu1, .footermenu2, .footermenu3, .footermenu4 {
+    color: #35322D; 
+    font-family: "promptbold";
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+}
+.footerline {
+    border-top:5px solid #35322D;
+    margin-top: 60px;
+}
+a {
+    text-decoration: none;
+    color:#A22A2A;
+}
+
+.underside-overskrift {
+    font-size: 80px;
+}
+
+.underside {
+font-size: 40px;
+
+}
+
+.underside:hover {
+    color: #660C0C;
+
+}
+a:hover {
+color: #660C0C;
+}
+.kalender:hover {
+    color: #660C0C;
+    cursor: pointer;
+}
+
+.filmtitel {
+    font-family: "promptmedium";
+    font-size: 24px;
+}
+.beskrivelse {
+    font-family: "promptlight";
+    font-size: 15px;
+    
+
+
+}
+.dato {
+    font-family: "promptlight";
+    font-size: 20px; 
+}
+
+.img1:hover {
+    filter:saturate(75%)
+}
+.img2:hover {
+    filter:saturate(75%)
+}
+.img3:hover {
+    filter:saturate(75%)
+}
+.img4:hover {
+    filter:saturate(75%)
+}
+.img5:hover {
+    filter:saturate(75%)
+}
+.img6:hover {
+    filter:saturate(75%)
+}
+
+.cal-header {
+    height: 160px;
+    width: 100%;
+}
+.film1, .film2, .film3, .film4, .film5, .film6{
+    line-height: 0.2;
+}
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    display: none;
+}
+
+.sectionline {
+    border-top: 3px solid #35322D;
+    margin-top: 100px;
+}
+.mellemrum {
+    margin-bottom: 60px;
+}
+.udvalgte {
+    text-align: right;
+    margin-bottom: -5px;
+    font-size: 20px;
+    color:#6E0606
+}
+@media (width>=650px) {
+    .cal-header {
+        width: 100%;
+        height: 25vw;
+    }
+    .underside-overskrift {
+        font-size: 12vw;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6{
+       
+        display:initial;
+    }
