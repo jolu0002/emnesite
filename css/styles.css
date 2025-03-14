@@ -1,5 +1,5 @@
 * {
-    margin: 5;
+    
     padding: 0;
     box-sizing: border-box;
 }
@@ -83,7 +83,17 @@ h2,h3,h4 {
 .overskrift {
     color: #A22A2A;
 }
-
+.dage {
+    font-family:"promptmedium";
+}
+.pilhøjre {
+    font-size: 15px;
+    color: #35322D;
+}
+.pilvenstre {
+    font-size: 20px;
+    color: #35322D;
+}
 nav ul li a {
     text-decoration: none;
     color: #A22A2A;
@@ -111,6 +121,7 @@ a {
 
 .underside {
 font-size: 40px;
+cursor:pointer;
 
 }
 
@@ -129,6 +140,7 @@ color: #660C0C;
 .filmtitel {
     font-family: "promptmedium";
     font-size: 24px;
+    color: #35322D;
 }
 .beskrivelse {
     font-family: "promptlight";
@@ -137,9 +149,10 @@ color: #660C0C;
 
 
 }
-.dato {
+.filmdato {
     font-family: "promptlight";
     font-size: 20px; 
+
 }
 
 .img1:hover {
@@ -167,24 +180,66 @@ color: #660C0C;
 }
 .film1, .film2, .film3, .film4, .film5, .film6{
     line-height: 0.2;
+    margin-top: 5px;
 }
 .img1, .img2, .img3, .img4, .img5, .img6 {
     display: none;
 }
 
+
 .sectionline {
     border-top: 3px solid #35322D;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .mellemrum {
     margin-bottom: 60px;
 }
 .udvalgte {
-    text-align: right;
+    text-align: center;
     margin-bottom: -5px;
     font-size: 20px;
-    color:#6E0606
+    color: #35322D;
+    margin-top: 40px;
+    font-family: "promptmedium";
 }
+.en, .to, .tre, .fire, .fem, .seks, .syv, .otte, .ni, .ti, .elleve, .tolv, .tretten, .fjorten, .femten, .seksten, .sytten, .atten, .nitten, .tyve, .tyveen, .tyveto, .tyvetre, .tyvefire, .tyvefem, .tyveseks, .tyvesyv, .tyveotte, .tyveni, .tredive {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    box-sizing:border-box;
+    cursor: pointer;
+    background-color: #35322D;
+    font-size: 15px;
+    font-family: "promptbold";
+    text-align: center;
+    padding-top: 3px;
+    color:#EBEBEB;
+    
+}
+.en:hover, .to:hover, .tre:hover, .fire:hover, .fem:hover, .seks:hover, .syv:hover, .otte:hover, .ni:hover, .ti:hover, .elleve:hover, .tolv:hover, .tretten:hover, .fjorten:hover, .femten:hover, .seksten:hover, .sytten:hover, .atten:hover, .nitten:hover, .tyve:hover, .tyveen:hover, .tyveto:hover, .tyvetre:hover, .tyvefire:hover, .tyvefem:hover, .tyveseks:hover, .tyvesyv:hover, .tyveotte:hover, .tyveni:hover, .tredive:hover {
+    background-color:#660C0C;
+    color:#EBEBEB;
+}
+.ab-header {
+    height: 160px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+
+}
+.about-overskrift {
+    font-size: 70px;
+    margin-left: 200px;
+    margin-top: 140px;
+}
+.undersideabout {
+    margin-left: 80px;
+    margin-top: 90px;
+    font-size: 60px;
+}
+
+
+
 @media (width>=650px) {
     .cal-header {
         width: 100%;
@@ -198,3 +253,7 @@ color: #660C0C;
        
         display:initial;
     }
+    h1 {
+        font-size: 40vw;
+    }
+}
