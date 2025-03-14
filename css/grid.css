@@ -5,14 +5,38 @@
         max-width: 1500px;
     }
 
-
+.header-about {
+    display: grid;
+    position: relative;
+    width:100%;
+}
+.header-about, .undersideabout, .about-overskrift {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.undersideabout {
+    position: absolute;
+}
+.about-overskrift {
+    position: absolute;
+}
 .header-calender {
     display: grid;
     position: relative;
     width: 100%;
 }
 
+.videooverlay {
+    position: relative;
+    display: grid;
+    place-items: left;
+}
+.tekstoverlay {
+    position: absolute;
+    top: -90px;
+    font-size: 96px;
 
+}
 .underside, .underside-overskrift {
 position: absolute;
 }
@@ -129,10 +153,170 @@ position: absolute;
     
     
 }
-.billetgrid {
+.img1 {
     display:grid;
     
 }
+.blomst1, .cta {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.cta {
+    text-align: center;
+    margin-top: 135px;
+}
+.udvalgte {
+    grid-column: 2/3;
+}
+.april {
+    display: flex;
+    justify-content: space-around;
+}
+.dage {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right:65px;
+}
+
+.pilhøjre {
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.pilvenstre {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.dato {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 40px;
+    margin-right:50px;
+    gap: 2px;
+}
+.en {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.to {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.tre {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.fire {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+.fem {
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+.seks {
+    grid-column: 7/8;
+    grid-row: 1/2;
+}
+.syv{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.otte {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.ni {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.ti {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.elleve {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+.tolv {
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+.tretten {
+    grid-column: 7/8;
+    grid-row: 2/3;
+}
+.fjorten {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.femten {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.seksten {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.sytten {
+    grid-column: 4/5;
+    grid-row: 3/4; 
+}
+.atten {
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+.nitten {
+    grid-column: 6/7;
+    grid-row: 3/4;
+}
+.tyve {
+    grid-column: 7/8;
+    grid-row: 3/4;
+}
+.tyveen {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.tyveto {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.tyvetre {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.tyvefire {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.tyvefem {
+    grid-column: 5/6;
+    grid-row: 4/5;
+}
+.tyveseks {
+    grid-column: 6/7;
+    grid-row: 4/5;
+}
+.tyvesyv {
+    grid-column: 7/8;
+    grid-row: 4/5;
+}
+.tyveotte {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.tyveni {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.tredive {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
 
 
 @media (width>=650px) {
