@@ -9,38 +9,40 @@
   </head>
   <body>
     <header>
-      <section class="header">
-        <div class="videodiv">
-          <video autoplay loop muted>
+
+      <div>
+      <video autoplay loop muted>
             <source src="video/headervideo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <h1 class="tekstoverlay">ALICE</h1>
-        </div>
-      </section>
+      <h1 class="tekstoverlay">ALICE</h1>
+    </div>
     </header>
     <main>
-      <section>
+      <section class="sectionline">
         <h2>Film i dag, torsdag 6. marts</h2>
         <p>
-          Der er ingen filmvisninger i dag. Tjek vores
-          <span class="kalender">kalender</span> og find den næste!
-        </p>
+          Der er ingen filmvisninger i dag. </p>
+        <p class="ingenfilm">Tjek vores
+          <span class="kalender"><a href="calender.html">kalender</a></span> og find den næste!</p>
         <!-- tilføj link ved "calender" -->
       </section>
-      <section>
+      <section class="sectionline mellemrum">
         <h2>Velkommen til <span class="overskrift">ALICE</span></h2>
         <!-- Alice i span for at få unik farve ift anden tekst -->
         <p>
-          En biograf, hvor filmkunst og kulturelle oplevelser mødes. Vi hylder
-          kvindelige instruktørers filmkunst. Oplev en bred vifte af
-          inspirerende film fra hele verden, alle skabt af talentfulde kvinder.
+          En biograf, hvor filmkunst og kulturelle oplevelser mødes.</p><p> Vi hylder
+          kvindelige instruktørers filmkunst. 
+          </p><p>Oplev en bred vifte af
+          inspirerende film fra hele verden, alle skabt af talentfulde kvinder.</p>
+          <p>
           Udover vores filmvisninger, arrangerer vi også spændende events, der
-          bringer filmelskere sammen til unikke oplevelser. Vores biograf er
+          bringer filmelskere sammen til unikke oplevelser. </p>
+          <p>Vores biograf er
           opkaldt efter Alice Guy-Blaché, en af filmhistoriens første og mest
-          betydningsfulde kvindelige instruktører. Vi er stolte af at videreføre
-          hendes arv og skabe et rum, der fremmer kreativitet og dialog. Kom
-          forbi og bliv en del af vores fællesskab - vi glæder os til at se dig
+          betydningsfulde kvindelige instruktører.</p> <p> Vi er stolte af at videreføre
+          hendes arv og skabe et rum, der fremmer kreativitet og dialog.</p> <p>Kom
+          forbi og bliv en del af vores fællesskab </p> <p>Vi glæder os til at se dig
           i Alice!
         </p>
       </section>
@@ -54,16 +56,17 @@
         </nav>
       </section>
     </main>
-    <footer>
+    <footer class="footerline">
       <nav>
-        <ul>
-          <li class="footermenu"><a href="about.html">ABOUT ALICE</a></li>
-          <li class="footermenu"><a href=#">CONTACT</a></li>
-          <li class="footermenu"><a href="calender.html">CALENDER</a></li>
-          <li class="footermenu"><a href="#">LET'S STAY IN TOUCH</a></li>
+        <ul class="grid_1-1">
+          <li class="footermenu1"><a href="about.html">ABOUT ALICE</a></li>
+          <li class="footermenu2"><a href=#">CONTACT</a></li>
+          <li class="footermenu3"><a href="calender.html">CALENDER</a></li>
+          <li class="footermenu4"><a href="#">LET'S STAY IN TOUCH</a></li>
           <p class="adresse">Nandrupsvej 2, 2000 Frederiksberg</p>
         </ul>
       </nav>
     </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
