@@ -36,15 +36,17 @@
     top: -40px;
     font-size: 25vw;
     margin-left: 8px;
-
 }
+.burgeroverlay {
+   position: absolute;
+   top: 15px;
+   right: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
 .underside, .underside-overskrift {
 position: absolute;
-}
-
-.underside {
-    top:10px;
-    left:10px;
 }
 
 .cal-header, .underside, .underside-overskrift {

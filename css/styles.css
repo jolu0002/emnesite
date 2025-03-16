@@ -121,11 +121,15 @@ a {
 }
 
 .underside-overskrift {
+    position: absolute;
+    top:72px;
     font-size: 80px;
+    max-width: 100%;
 }
 
 .underside {
 font-size: 40px;
+position: absolute; 
 cursor:pointer;
 
 }
@@ -242,7 +246,102 @@ color: #660C0C;
     margin-top: 90px;
     font-size: 60px;
 }
+header {
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ 
+  
+  .burgermenu {
+    display: flex;
+    list-style: none;
+    position: fixed;
+    margin: 10px;
+    width: auto;
+    font-family: "promptblack";
+    color: #A22A2A;
+    line-height: 50px;
 
+  }
+  
+  .burgermenu li {
+    /* margin-right: 20px; */
+  }
+  
+  /* .burgermenu li:last-child {
+    margin-right: 0;
+  } */
+  
+  .burgermenu, .burgera {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: justify;
+    
+ 
+
+
+  }
+  
+  .burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #A22A2A;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
+  .burger {
+    display: none;
+  }
+  @media screen {
+    .burgermenu {
+      display: none;
+    }
+    .burger {
+      display: block;
+    }
+    .burger.active .line:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+      transition: 0.2s linear;
+    }
+  
+    .burger.active .line:nth-child(2) {
+      opacity: 0;
+      transition: 0.15s linear;
+    }
+  
+    .burger.active .line:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+      transition: 0.2s linear;
+    }
+  
+    nav.active .burgermenu {
+      display: block;
+      position: absolute;
+      top: 120px;
+      right: 390px;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    nav.active .burgermenu li {
+      margin: 10px 20px;
+    }
+  
+    nav.active .burgermenu, .burgera {
+      font-size: 70px;
+    }
+  }
+  
 
 
 @media (width>=650px) {
@@ -410,7 +509,10 @@ color: #660C0C;
         font-size: 40vw;
     }
     .underside-overskrift {
-        margin-top: 120px;
+        position: absolute;
+        font-size: 12.5vw;
+        margin-top: 11.3vw;
+        top: 0;
     }
 
 }
