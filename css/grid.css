@@ -33,8 +33,9 @@
 }
 .tekstoverlay {
     position: absolute;
-    top: -90px;
-    font-size: 96px;
+    top: -40px;
+    font-size: 25vw;
+    margin-left: 8px;
 
 }
 .underside, .underside-overskrift {
@@ -172,6 +173,7 @@ position: absolute;
 .april {
     display: flex;
     justify-content: space-around;
+    width: 400px;
 }
 .dage {
     display: flex;
@@ -179,11 +181,14 @@ position: absolute;
     align-items: center;
     margin-left: 40px;
     margin-right:65px;
+    width: 325px;
+    height: 30px;
 }
 
 .pilhøjre {
     margin-right: 80px;
     margin-top: 30px;
+   
 }
 .pilvenstre {
     margin-left: 80px;
@@ -195,6 +200,7 @@ position: absolute;
     margin-left: 40px;
     margin-right:50px;
     gap: 2px;
+    width: 345px;
 }
 .en {
     grid-column: 2/3;
@@ -430,7 +436,24 @@ position: absolute;
     margin-top: 330px;
     margin-left: 15px;
     text-align: left; */
-}
-.underside {
+    .underside {
     text-decoration: none;
 }
+.grid_1-1 {
+    display: flex;
+    justify-content:space-around;
+}
+.adresse {
+    display: none;
+}
+
+.tekstoverlay {
+    position: absolute;
+    top: -40px;
+    font-size: 160px;
+    margin-left: 8px;
+
+}
+}
+
+
