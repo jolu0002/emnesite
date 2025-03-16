@@ -64,7 +64,7 @@ p {
 .menu {
     color: #A22A2A;
     font-family: "promptblack";
-    font-size: 80px;
+    font-size: 75px;
     line-height: 70px;
     margin-left: 2px;
 }
@@ -122,8 +122,8 @@ a {
 
 .underside-overskrift {
     position: absolute;
-    top:72px;
-    font-size: 80px;
+    top:83px;
+    font-size: 70px;
     max-width: 100%;
 }
 
@@ -148,7 +148,7 @@ color: #660C0C;
 
 .filmtitel {
     font-family: "promptmedium";
-    font-size: 24px;
+    font-size: 20px;
     color: #35322D;
 }
 .beskrivelse {
@@ -160,7 +160,7 @@ color: #660C0C;
 }
 .filmdato {
     font-family: "promptlight";
-    font-size: 20px; 
+    font-size: 18px; 
 
 }
 
@@ -355,6 +355,9 @@ header {
         margin-left: 130px;
     }
 
+    .filmtitel {
+        font-size: 22px;
+    }
     .img1, .img2, .img3, .img4, .img5, .img6{
        
         display:grid;
@@ -510,8 +513,8 @@ header {
     }
     .underside-overskrift {
         position: absolute;
-        font-size: 12.5vw;
-        margin-top: 11.3vw;
+        font-size: 11vw;
+        margin-top: 13vw;
         top: 0;
     }
 
