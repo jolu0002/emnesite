@@ -17,6 +17,7 @@
 .undersideabout {
     position: absolute;
 }
+
 .about-overskrift {
     position: absolute;
 }
@@ -458,4 +459,8 @@ position: absolute;
 }
 }
 
-
+@media (width>=850px) {
+    .calenderapril {
+        display: none;
+    }
+}

@@ -156,7 +156,6 @@ color: #660C0C;
     font-size: 15px;
     
 
-
 }
 .filmdato {
     font-family: "promptlight";
@@ -341,10 +340,23 @@ header {
       font-size: 70px;
     }
   }
-  
+  .kalenderimg {
+    display: none;
+  }
 
 
 @media (width>=650px) {
+    .aboutmain {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .kalenderimg {
+        display: initial;
+      }
+
+    .calenderapril {
+        display: none;
+    }
     .cal-header {
         width: 100%;
         height: 25vw;
@@ -518,4 +530,34 @@ header {
         top: 0;
     }
 
+}
+@media (width>=1000px) {
+    .blomst1, .blomst2, .blomst3, .blomst4, .blomst5, .blomst6 {
+        height: 150px;
+        width: auto;
+    }
+    .cta1, .cta2, .cta3, .cta4, .cta5, .cta6{
+        margin-left: 120px;
+        margin-top: 90px;
+    }
+    .menu {
+        font-size: 200px;
+        padding: 50px;
+        margin-right: 1px;
+    }
+    .forsidep {
+        text-align: justify;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .forsideh2 {
+        margin-left: 200px;
+    }
+    .filmidag {
+        margin-left: 190px;
+    }
+    .aboutmain {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }
